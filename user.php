@@ -24,7 +24,7 @@ if(isset($_POST['update_data']))
     if($stmt)
     {
         $_SESSION['status'] = "Data Updated Successfully";
-        header("Location: login.html");
+        header("Location: user.html");
     }
     else
     {
